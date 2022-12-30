@@ -29,7 +29,12 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-</head>
+
+    <!-- model -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script></head>
 
 <body>
     <!-- Spinner Start -->
@@ -52,8 +57,8 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">EVENTS</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#events" class="nav-item nav-link">EVENTS</a>
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-down m-0">
@@ -97,6 +102,7 @@
 
 
     <!-- About Start -->
+    <section id="about">
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -113,22 +119,21 @@
                         students from all the engineering colleges across Kerala may participate</p>
                     <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p> -->
                     <div class="row gy-2 gx-4 mb-4">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">EVENTS</h6>
+                        <h6 class=" bg-white text-start text-primary pe-3">EVENTS</h6>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>WEBINAR</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><a class="btn btn-link text-dark" href="#e1">WEBINAR</a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>SPEECH
-                                COMPETITION</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><a class="btn btn-link text-dark" href="#e2">CARTOOON DRAWING</a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TREASURE HUNT</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><a class="btn btn-link text-dark" href="#e3">SPEECH COMPETITION</a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>ESSAY COMPETITION</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><a class="btn btn-link text-dark" href="#e4">ESSAY COMPETITION</a></p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>CARTOOON DRAWING</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i><a class="btn btn-link text-dark" href="#e5">TREASURE HUNT</a></p>
                         </div>
                         <!-- <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
@@ -139,10 +144,12 @@
             </div>
         </div>
     </div>
+</section>
     <!-- About End -->
 
 
     <!-- Courses Start -->
+    <section id="events">
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -150,7 +157,7 @@
                 <h1 class="mb-5">Popular events</h1>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" id="e1" >
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/E1.jpg" alt="">
@@ -178,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" id="e2" >
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/E2.jpg" alt="">
@@ -206,7 +213,7 @@
                                </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s"id="e3" >
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/E3.jpg" alt="">
@@ -234,7 +241,7 @@
                              </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s"id="e4" >
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/E4.jpg" alt="">
@@ -261,7 +268,7 @@
                                </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s"id="e5" >
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/E5.jpg" alt="">
@@ -291,6 +298,7 @@
             </div>
         </div>
     </div>
+</section>
     <!-- Courses End -->
 
 
@@ -432,11 +440,79 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="#about">About Us</a>
                    
-                    <a class="btn btn-link" href="">events</a>
-                    <a class="btn btn-link" href="">RULES AND REGULATIONS</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="#events">events</a>
+                    <a class="btn btn-link"  data-toggle="modal" data-target="#myModal">RULES AND REGULATIONS</a> 
+
+
+                     <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">RULES AND REGULATIONS</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="color: black;">
+            <h6>event </h6>
+            <p>• A Whatsapp Group will be created on 25th December by the program head.
+              • The program is scheduled on 26th December 2020 and the topic will be provided on the whatsapp group at 10am on 25th dec 2020.
+              • The participants should submit the drawings on or before 26 December2020 by 5pm sharp.
+              • The drawing should be submitted to the program head before the deadline.
+              • Further rules and instructions will be given by the program head through the whatsapp group.
+              • The participants should submit the scanned pdf copy of their drawing before the deadline.
+              • The submission after deadline will not be considered.</p>
+              <hr>
+              <h6>event </h6>
+              <p>• A Whatsapp Group will be created on 25th December by the program head.
+                • The program is scheduled on 26th December 2020 and the topic will be provided on the whatsapp group at 10am on 25th dec 2020.
+                • The participants should submit the drawings on or before 26 December2020 by 5pm sharp.
+                • The drawing should be submitted to the program head before the deadline.
+                • Further rules and instructions will be given by the program head through the whatsapp group.
+                • The participants should submit the scanned pdf copy of their drawing before the deadline.
+                • The submission after deadline will not be considered.</p> <hr>
+                <h6>event </h6>
+                <p>• A Whatsapp Group will be created on 25th December by the program head.
+                  • The program is scheduled on 26th December 2020 and the topic will be provided on the whatsapp group at 10am on 25th dec 2020.
+                  • The participants should submit the drawings on or before 26 December2020 by 5pm sharp.
+                  • The drawing should be submitted to the program head before the deadline.
+                  • Further rules and instructions will be given by the program head through the whatsapp group.
+                  • The participants should submit the scanned pdf copy of their drawing before the deadline.
+                  • The submission after deadline will not be considered.</p> <hr>
+                  <h6>event </h6>
+                  <p>• A Whatsapp Group will be created on 25th December by the program head.
+                    • The program is scheduled on 26th December 2020 and the topic will be provided on the whatsapp group at 10am on 25th dec 2020.
+                    • The participants should submit the drawings on or before 26 December2020 by 5pm sharp.
+                    • The drawing should be submitted to the program head before the deadline.
+                    • Further rules and instructions will be given by the program head through the whatsapp group.
+                    • The participants should submit the scanned pdf copy of their drawing before the deadline.
+                    • The submission after deadline will not be considered.</p> <hr>
+            <h6>event </h6>
+            <p>• A Whatsapp Group will be created on 25th December by the program head.
+              • The program is scheduled on 26th December 2020 and the topic will be provided on the whatsapp group at 10am on 25th dec 2020.
+              • The participants should submit the drawings on or before 26 December2020 by 5pm sharp.
+              • The drawing should be submitted to the program head before the deadline.
+              • Further rules and instructions will be given by the program head through the whatsapp group.
+              • The participants should submit the scanned pdf copy of their drawing before the deadline.
+              • The submission after deadline will not be considered.</p>
+     
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+                      <a class="btn btn-link" href="contact.html">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
@@ -490,15 +566,69 @@
                         <!-- &copy; <a class="border-bottom" href="">vblaze</a>, All Right Reserved. -->
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                         Designed By <a class="border-bottom" href="">vblaze</a><br><br>
+                         Designed By <a class="border-bottom" href="https://vblaze.tech/">vblaze</a><br><br>
                         <!-- Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>  -->
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="#">Home</a>
                             <!-- <a href="">Cookies</a> -->
-                            <a href="">Help</a>
-                            <!-- <a href="">FQAs</a> -->
+                            <a data-toggle="modal" data-target="#myModal1">Help</a>
+                            <a data-toggle="modal" data-target="#myModal2">FQAs</a>
+                            <!-- model1 -->
+                            <div class="modal fade" id="myModal1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                  
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                      <h4 class="modal-title">help</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body" style="color: black;">
+                                        <h3>contact</h3>
+                                        <p>948949494494</p>
+                                           </div>
+                                      
+                                    
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- model 2 -->
+                              <div class="modal fade" id="myModal2">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                  
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                      <h4 class="modal-title">FQAs</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    
+                                    <!-- Modal body -->
+                                    <div class="modal-body" style="color: black;">
+                                        <h3>General Rules :-</h3>
+                                        <p>• Volunteers or participants must register through the registration link for participating in the events.
+                                            • All the particpants should go through the rules of the programmes thoroughly.
+                                            No submission after the deadline will be considered.</p>
+                                        </div>
+                                      
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                                                          
                         </div>
                     </div>
                 </div>
